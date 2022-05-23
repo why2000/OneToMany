@@ -21,7 +21,7 @@ public class OneToManyApplication {
     final PGSimpleDataSource dataSource = new PGSimpleDataSource();
     //        dataSource.setDatabaseName("OrmDemo");
     dataSource.setUser("why");
-    dataSource.setPassword("why2000");
+    dataSource.setPassword("why");
     dataSource.setUrl("jdbc:postgresql://localhost:5432/postgres");
     return dataSource;
   }
